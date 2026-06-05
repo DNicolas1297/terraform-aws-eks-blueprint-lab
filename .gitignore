@@ -1,6 +1,7 @@
 # Archivos de credenciales y variables de entorno
 credentials.csv
 credentials.json
+credentials.md
 .env
 *.pem
 *.key
