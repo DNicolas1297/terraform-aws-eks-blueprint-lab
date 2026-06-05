@@ -5,7 +5,7 @@ module "eks" {
   cluster_name    = "sandbox-cluster"
   cluster_version = "1.30"
 
-  # Tu lógica: El plano de control se conecta a la red global, pero...
+  # Tu lógica: El plano de control se conecta a la red global, pero..
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets # ¡Los nodos vivirán aquí!
 
